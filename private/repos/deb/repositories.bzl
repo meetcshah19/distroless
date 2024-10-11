@@ -83,6 +83,15 @@ def repositories():
         manifest = "//private/repos/deb:bookworm_python.yaml",
     )
 
+    # bookworm postgres only
+    deb_index(
+        name = "bookworm_postgres",
+        package_template = _PACKAGE_TMPL,
+        resolve_transitive = False,
+        lock = "//private/repos/deb:bookworm_postgres.lock.json",
+        manifest = "//private/repos/deb:bookworm_postgres.yaml",
+    )
+
     # versions generated from lockfiles
     versions(
         name = "versions",
@@ -90,5 +99,6 @@ def repositories():
             "//private/repos/deb:bookworm_python.lock.json": "bookworm_python",
             "//private/repos/deb:bookworm_java.lock.json": "bookworm_java",
             "//private/repos/deb:bookworm.lock.json": "bookworm",
+            "//private/repos/deb:bookworm_postgres.lock.json": "bookworm_postgres",
         },
     )

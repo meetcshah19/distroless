@@ -28,6 +28,8 @@ def _get_dist_arch_alias(arch, dist):
         dist += "_java"
     elif rel == "experimental/python3" or rel == "python3":
         dist += "_python"
+    elif rel == "postgres":
+        dist += "_postgres"
 
     return (arch, dist)
 
