@@ -36,14 +36,23 @@ DISTRO_VERSION = {
     for distro in DISTROS
 ]
 
+pkg_tar(
+    name = "entrypoint_tar",
+    srcs = {
+        "entrypoint.sh": "entrypoint.sh",  # The path inside the container (root directory)
+    },
+    mode = "0755",  # Make the script executable
+    package_dir = "/usr/local/bin",  # Path where the script will be placed inside the container
+)
+
 [
     oci_image(
         name = ("postgres" if (not mode) else mode[1:]) + "_" + user + "_" + arch + "_" + distro,
         # Based on //cc so that C extensions work properly.
         base = "//cc" + (mode if mode else ":cc") + "_" + user + "_" + arch + "_" + distro,
-        # entrypoint = [
-        #     "/usr/lib/postgresql/15/bin/postgres",
-        # ],
+        entrypoint = [
+            "/usr/local/bin/entrypoint.sh",
+        ],
         # Use UTF-8 encoding for file system: match modern Linux
         env = {"LANG": "C.UTF-8"},
         tars = [
@@ -131,6 +140,8 @@ DISTRO_VERSION = {
           deb.package(arch, distro, "libzstd1"),
           deb.package(arch, distro, "postgresql-15"),
           deb.package(arch, distro, "libp11-kit0"),
+          deb.package(arch, distro, "zlib1g"),
+          ":entrypoint_tar",
        ],
     )
     for mode in [

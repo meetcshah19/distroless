@@ -97,5 +97,5 @@ packages:
   - libz3-4
   - libzstd1
   - postgresql-15
-  # - zlib1g
+  - zlib1g
   - libp11-kit0
