@@ -92,6 +92,14 @@ def repositories():
         manifest = "//private/repos/deb:bookworm_postgres.yaml",
     )
 
+    deb_index(
+        name = "bookworm_php",
+        package_template = _PACKAGE_TMPL,
+        resolve_transitive = False,
+        lock = "//private/repos/deb:bookworm_php.lock.json",
+        manifest = "//private/repos/deb:bookworm_php.yaml",
+    )
+
     # versions generated from lockfiles
     versions(
         name = "versions",
@@ -100,5 +108,6 @@ def repositories():
             "//private/repos/deb:bookworm_java.lock.json": "bookworm_java",
             "//private/repos/deb:bookworm.lock.json": "bookworm",
             "//private/repos/deb:bookworm_postgres.lock.json": "bookworm_postgres",
+            "//private/repos/deb:bookworm_php.lock.json": "bookworm_php",
         },
     )
