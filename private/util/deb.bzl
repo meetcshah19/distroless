@@ -30,7 +30,8 @@ def _get_dist_arch_alias(arch, dist):
         dist += "_python"
     elif rel == "postgres":
         dist += "_postgres"
-
+    elif rel == "php":
+        dist += "_php"
     return (arch, dist)
 
 def _package(arch, dist, package):
