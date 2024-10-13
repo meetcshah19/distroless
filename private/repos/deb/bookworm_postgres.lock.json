@@ -606,15 +606,6 @@
 		{
 			"arch": "amd64",
 			"dependencies": [],
-			"key": "libssl3_3.0.14-1~deb12u2_amd64",
-			"name": "libssl3",
-			"sha256": "b308a8fd9889fd7e57b801511e3f42a203675b6b0087455a977d25b7633a1296",
-			"url": "https://snapshot.debian.org/archive/debian-security/20240903T204216Z/pool/updates/main/o/openssl/libssl3_3.0.14-1~deb12u2_amd64.deb",
-			"version": "3.0.14-1~deb12u2"
-		},
-		{
-			"arch": "amd64",
-			"dependencies": [],
 			"key": "libstdc-p--p-6_12.2.0-14_amd64",
 			"name": "libstdc++6",
 			"sha256": "9b1b269020cec6aced3b39f096f7b67edd1f0d4ab24f412cb6506d0800e19cbf",
@@ -1358,15 +1349,6 @@
 			"sha256": "937b4bbaa2e44df0928a14cc310c707ad135b321cba0e172b6c215e3acd98765",
 			"url": "https://snapshot.debian.org/archive/debian/20240903T204216Z/pool/main/e/e2fsprogs/libss2_1.47.0-2_arm64.deb",
 			"version": "1.47.0-2"
-		},
-		{
-			"arch": "arm64",
-			"dependencies": [],
-			"key": "libssl3_3.0.14-1~deb12u2_arm64",
-			"name": "libssl3",
-			"sha256": "87bc8092e38da779f63c7ef2bee76a49a0747c968c8e0129130a6403d7b575a8",
-			"url": "https://snapshot.debian.org/archive/debian-security/20240903T204216Z/pool/updates/main/o/openssl/libssl3_3.0.14-1~deb12u2_arm64.deb",
-			"version": "3.0.14-1~deb12u2"
 		},
 		{
 			"arch": "arm64",

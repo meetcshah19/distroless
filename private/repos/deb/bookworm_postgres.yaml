@@ -82,7 +82,6 @@ packages:
   - libsmartcols1
   - libsqlite3-0
   - libss2
-  - libssl3
   - libstdc++6
   - libsystemd0
   - libtasn1-6
