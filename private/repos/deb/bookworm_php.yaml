@@ -3,11 +3,11 @@ version: 1
 
 sources:
   - channel: bookworm main
-    url: https://snapshot.debian.org/archive/debian/20240903T204216Z
+    url: https://snapshot.debian.org/archive/debian/20241012T203815Z
   - channel: bookworm-updates main
-    url: https://snapshot.debian.org/archive/debian/20240903T204216Z
+    url: https://snapshot.debian.org/archive/debian/20241012T203815Z
   - channel: bookworm-security main
-    url: https://snapshot.debian.org/archive/debian-security/20240903T204216Z
+    url: https://snapshot.debian.org/archive/debian-security/20241012T203815Z
 
 archs:
   - amd64
@@ -28,16 +28,15 @@ packages:
   - libjpeg62-turbo
   - libxslt1.1
   - libzip4
+  - zlib1g
   - php-cli
   - php-fpm
   - php-common
   - php-mbstring
   - php-xml
   - php-json
-  - php-mysqlnd
   - php-curl
   - php-gd
   - php-intl
   - php-zip
-  - php-opcache
   - composer

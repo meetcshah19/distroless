@@ -96,7 +96,7 @@ def repositories():
         name = "bookworm_php",
         package_template = _PACKAGE_TMPL,
         resolve_transitive = False,
-        lock = "//private/repos/deb:bookworm_php.lock.json",
+#        lock = "//private/repos/deb:bookworm_php.lock.json",
         manifest = "//private/repos/deb:bookworm_php.yaml",
     )
 

@@ -1,0 +1,473 @@
+{
+	"packages": [
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "dash_0.5.12-2_amd64",
+			"name": "dash",
+			"sha256": "33ea40061da2f1a861ec46212b2b6a34f0776a049b1a3f0abce2fb8cb994258f",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/d/dash/dash_0.5.12-2_amd64.deb",
+			"version": "0.5.12-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libacl1_2.3.1-3_amd64",
+			"name": "libacl1",
+			"sha256": "8be9df5795114bfe90e2be3d208ef47a5edd3fc7b3e20d387a597486d444e5e2",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/a/acl/libacl1_2.3.1-3_amd64.deb",
+			"version": "2.3.1-3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libc6_2.36-9-p-deb12u8_amd64",
+			"name": "libc6",
+			"sha256": "dbb527d86181f4b50edf5790c34c4d0b4ceac7f199b1266a9336b5708f8e9798",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/g/glibc/libc6_2.36-9+deb12u8_amd64.deb",
+			"version": "2.36-9+deb12u8"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libcurl4_7.88.1-10-p-deb12u7_amd64",
+			"name": "libcurl4",
+			"sha256": "c8aed7bad5f6bf1ad8715d91290a697601b39fab392712399e01b705883c9966",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/c/curl/libcurl4_7.88.1-10+deb12u7_amd64.deb",
+			"version": "7.88.1-10+deb12u7"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libedit2_3.1-20221030-2_amd64",
+			"name": "libedit2",
+			"sha256": "1cf14abf2716d3279db12d0657a5737cf70074a1e71d3bdf73206625e3c89ce6",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libe/libedit/libedit2_3.1-20221030-2_amd64.deb",
+			"version": "3.1-20221030-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libsqlite3-0_3.40.1-2_amd64",
+			"name": "libsqlite3-0",
+			"sha256": "a8b11a1664a998cc2499fb04327d1f6c4e8f77b78ea8b6f8418d96fc54e3731f",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/s/sqlite3/libsqlite3-0_3.40.1-2_amd64.deb",
+			"version": "3.40.1-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libssl3_3.0.14-1~deb12u2_amd64",
+			"name": "libssl3",
+			"sha256": "b308a8fd9889fd7e57b801511e3f42a203675b6b0087455a977d25b7633a1296",
+			"url": "https://snapshot.debian.org/archive/debian-security/20241012T203815Z/pool/updates/main/o/openssl/libssl3_3.0.14-1~deb12u2_amd64.deb",
+			"version": "3.0.14-1~deb12u2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libpng16-16_1.6.39-2_amd64",
+			"name": "libpng16-16",
+			"sha256": "dc32727dca9a87ba317da7989572011669f568d10159b9d8675ed7aedd26d686",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libp/libpng1.6/libpng16-16_1.6.39-2_amd64.deb",
+			"version": "1.6.39-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxml2_2.9.14-p-dfsg-1.3~deb12u1_amd64",
+			"name": "libxml2",
+			"sha256": "35b76cb7038fc1c940204a4f05f33ffb79d027353ce469397d9adcf8f9b3e1a7",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libx/libxml2/libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb",
+			"version": "2.9.14+dfsg-1.3~deb12u1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libonig5_6.9.8-1_amd64",
+			"name": "libonig5",
+			"sha256": "59ecfce6d88c7c4b09496ce182b3b8303e8e8477664e009b16ae83a09cd12be7",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libo/libonig/libonig5_6.9.8-1_amd64.deb",
+			"version": "6.9.8-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libfreetype6_2.12.1-p-dfsg-5-p-deb12u3_amd64",
+			"name": "libfreetype6",
+			"sha256": "f79b7088a7690b831c2494789d2d59248198b4ec49471f86f0cba9d6eb2db43a",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/f/freetype/libfreetype6_2.12.1+dfsg-5+deb12u3_amd64.deb",
+			"version": "2.12.1+dfsg-5+deb12u3"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libjpeg62-turbo_1-2.1.5-2_amd64",
+			"name": "libjpeg62-turbo",
+			"sha256": "95ec30140789a342add8f8371ed018924de51b539056522b66f207b25cba9cad",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-2_amd64.deb",
+			"version": "1:2.1.5-2"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libxslt1.1_1.1.35-1_amd64",
+			"name": "libxslt1.1",
+			"sha256": "cfd7a73a83459329d6c5216aebad1cf764df3fa1e2a4499aaecb403eb98b6e0f",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libx/libxslt/libxslt1.1_1.1.35-1_amd64.deb",
+			"version": "1.1.35-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "libzip4_1.7.3-1-p-b1_amd64",
+			"name": "libzip4",
+			"sha256": "b43b67f12312c36e2375d4070975bd63a16597e2980e20a5baccc2404cb8ce79",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libz/libzip/libzip4_1.7.3-1+b1_amd64.deb",
+			"version": "1.7.3-1+b1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "zlib1g_1-1.2.13.dfsg-1_amd64",
+			"name": "zlib1g",
+			"sha256": "d7dd1d1411fedf27f5e27650a6eff20ef294077b568f4c8c5e51466dc7c08ce4",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb",
+			"version": "1:1.2.13.dfsg-1"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-cli_2-8.2-p-93_amd64",
+			"name": "php-cli",
+			"sha256": "dac7619c999e7c08c1a13f3049d4e0a3643a91e8c5f660caead21ade12da03db",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-cli_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-fpm_2-8.2-p-93_amd64",
+			"name": "php-fpm",
+			"sha256": "3f4fd730ed15619e565c8e4b21f6d401fc8b641432a95e32beebc421fc52de93",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-fpm_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-common_2-93_amd64",
+			"name": "php-common",
+			"sha256": "91f4c80b289c3ae8fd85cb1fe607c71cd6a8572ecd4e5debed2fdbc971a7ae74",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-common_93_all.deb",
+			"version": "2:93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-mbstring_2-8.2-p-93_amd64",
+			"name": "php-mbstring",
+			"sha256": "64408c0f6d8b90e9ff8c1857e72d87669747bac16c93e216924ab1a528815fe4",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-mbstring_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-xml_2-8.2-p-93_amd64",
+			"name": "php-xml",
+			"sha256": "aeafa644c2f22af319b7f92268b471ce670f2cb0b37c154dfa74779c46dcd907",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-xml_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-json_2-8.2-p-93_amd64",
+			"name": "php-json",
+			"sha256": "51d2839d91f083c109fc3e045e4fc3a6c91cd64b9b8fcaa174f5bb45a0c2a71f",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-json_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-curl_2-8.2-p-93_amd64",
+			"name": "php-curl",
+			"sha256": "28335d6ee2b35a1982c63118f6fb40be44799c90434f9cc47a4a0348666dcc29",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-curl_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-gd_2-8.2-p-93_amd64",
+			"name": "php-gd",
+			"sha256": "adce409a98adb466f164f624e1c3238b222d973fd76a8f34a14c504d628e35cc",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-gd_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-intl_2-8.2-p-93_amd64",
+			"name": "php-intl",
+			"sha256": "216231e0c4822cf1bf5ea0f3a08944fd8bdedaba6fc038d3cf99b8c68d359e7a",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-intl_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "php-zip_2-8.2-p-93_amd64",
+			"name": "php-zip",
+			"sha256": "8c9cc2a43d7deb53b331808854a290832002214ddd765ad46e3c17d42b339508",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-zip_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "amd64",
+			"dependencies": [],
+			"key": "composer_2.5.5-1-p-deb12u2_amd64",
+			"name": "composer",
+			"sha256": "ed5665825da4a31542649c10d905012949bcbb02fe3c53a07706c3c04233dc16",
+			"url": "https://snapshot.debian.org/archive/debian-security/20241012T203815Z/pool/updates/main/c/composer/composer_2.5.5-1+deb12u2_all.deb",
+			"version": "2.5.5-1+deb12u2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "dash_0.5.12-2_arm64",
+			"name": "dash",
+			"sha256": "c1358e2a8054eb93efd460adf480224a16ea9e0b4d7b4c6cbcf8c8c91902a1d7",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/d/dash/dash_0.5.12-2_arm64.deb",
+			"version": "0.5.12-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libacl1_2.3.1-3_arm64",
+			"name": "libacl1",
+			"sha256": "2b0eef11a2e271e7355adaf1f6cbf8d2e83835ae1b6cf15165d59b8289c08342",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/a/acl/libacl1_2.3.1-3_arm64.deb",
+			"version": "2.3.1-3"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libc6_2.36-9-p-deb12u8_arm64",
+			"name": "libc6",
+			"sha256": "00b2c999ed76342824e26c46bb23133f07bba97e911d34b6855addc4e93e5638",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/g/glibc/libc6_2.36-9+deb12u8_arm64.deb",
+			"version": "2.36-9+deb12u8"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libcurl4_7.88.1-10-p-deb12u7_arm64",
+			"name": "libcurl4",
+			"sha256": "c30ad8aab9fac6391912f243838fec9f134fd7fc96308be613d29cbfd550bf05",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/c/curl/libcurl4_7.88.1-10+deb12u7_arm64.deb",
+			"version": "7.88.1-10+deb12u7"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libedit2_3.1-20221030-2_arm64",
+			"name": "libedit2",
+			"sha256": "6ca1e355586ebfcfe8122b4d317fcaad4a9a10ca455c6a9bbd36f55bf4be85d3",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libe/libedit/libedit2_3.1-20221030-2_arm64.deb",
+			"version": "3.1-20221030-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libsqlite3-0_3.40.1-2_arm64",
+			"name": "libsqlite3-0",
+			"sha256": "87e891926ba874c9f5fbd3b48d564cf103dd97db78f2d83fd1175826771dacfd",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/s/sqlite3/libsqlite3-0_3.40.1-2_arm64.deb",
+			"version": "3.40.1-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libssl3_3.0.14-1~deb12u2_arm64",
+			"name": "libssl3",
+			"sha256": "87bc8092e38da779f63c7ef2bee76a49a0747c968c8e0129130a6403d7b575a8",
+			"url": "https://snapshot.debian.org/archive/debian-security/20241012T203815Z/pool/updates/main/o/openssl/libssl3_3.0.14-1~deb12u2_arm64.deb",
+			"version": "3.0.14-1~deb12u2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libpng16-16_1.6.39-2_arm64",
+			"name": "libpng16-16",
+			"sha256": "ae87c6251a03fbe466228a058fcbaa5b6a44f156166c1ba5118024ac4bf65b75",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libp/libpng1.6/libpng16-16_1.6.39-2_arm64.deb",
+			"version": "1.6.39-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libxml2_2.9.14-p-dfsg-1.3~deb12u1_arm64",
+			"name": "libxml2",
+			"sha256": "9147f4b4c0ec4c2a4cbe8f1fd2e38746c28f80fcc59c9febfd2aa0a22c6cbfe0",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libx/libxml2/libxml2_2.9.14+dfsg-1.3~deb12u1_arm64.deb",
+			"version": "2.9.14+dfsg-1.3~deb12u1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libonig5_6.9.8-1_arm64",
+			"name": "libonig5",
+			"sha256": "4693ac0f4fc8f2b8b4a7854463a8061a5b0fe7a7c2eb46b9cc21bc4c3adaf1ee",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libo/libonig/libonig5_6.9.8-1_arm64.deb",
+			"version": "6.9.8-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libfreetype6_2.12.1-p-dfsg-5-p-deb12u3_arm64",
+			"name": "libfreetype6",
+			"sha256": "2b12befafde6e2f504973a7710c52d550264caa173f0576f22ae89ddf28143e5",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/f/freetype/libfreetype6_2.12.1+dfsg-5+deb12u3_arm64.deb",
+			"version": "2.12.1+dfsg-5+deb12u3"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libjpeg62-turbo_1-2.1.5-2_arm64",
+			"name": "libjpeg62-turbo",
+			"sha256": "de66f186f3ff3c1d10c2e75ae056b019b3f7f091f51096a06cade48b2dea875b",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libj/libjpeg-turbo/libjpeg62-turbo_2.1.5-2_arm64.deb",
+			"version": "1:2.1.5-2"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libxslt1.1_1.1.35-1_arm64",
+			"name": "libxslt1.1",
+			"sha256": "7d82da98f2951a42ae0355db57d8d05f221bae1bac99028da8e9bd77ea2fd13d",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libx/libxslt/libxslt1.1_1.1.35-1_arm64.deb",
+			"version": "1.1.35-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "libzip4_1.7.3-1-p-b1_arm64",
+			"name": "libzip4",
+			"sha256": "e6dd28155c1aa8b797304622af9cc1099663c4171f858c63fe975ba85c27d9a8",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/libz/libzip/libzip4_1.7.3-1+b1_arm64.deb",
+			"version": "1.7.3-1+b1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "zlib1g_1-1.2.13.dfsg-1_arm64",
+			"name": "zlib1g",
+			"sha256": "52b8b8a145bbe1956bba82034f77022cbef0c3d0885c9e32d9817a7932fe1913",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_arm64.deb",
+			"version": "1:1.2.13.dfsg-1"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-cli_2-8.2-p-93_arm64",
+			"name": "php-cli",
+			"sha256": "dac7619c999e7c08c1a13f3049d4e0a3643a91e8c5f660caead21ade12da03db",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-cli_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-fpm_2-8.2-p-93_arm64",
+			"name": "php-fpm",
+			"sha256": "3f4fd730ed15619e565c8e4b21f6d401fc8b641432a95e32beebc421fc52de93",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-fpm_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-common_2-93_arm64",
+			"name": "php-common",
+			"sha256": "91f4c80b289c3ae8fd85cb1fe607c71cd6a8572ecd4e5debed2fdbc971a7ae74",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-common_93_all.deb",
+			"version": "2:93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-mbstring_2-8.2-p-93_arm64",
+			"name": "php-mbstring",
+			"sha256": "64408c0f6d8b90e9ff8c1857e72d87669747bac16c93e216924ab1a528815fe4",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-mbstring_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-xml_2-8.2-p-93_arm64",
+			"name": "php-xml",
+			"sha256": "aeafa644c2f22af319b7f92268b471ce670f2cb0b37c154dfa74779c46dcd907",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-xml_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-json_2-8.2-p-93_arm64",
+			"name": "php-json",
+			"sha256": "51d2839d91f083c109fc3e045e4fc3a6c91cd64b9b8fcaa174f5bb45a0c2a71f",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-json_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-curl_2-8.2-p-93_arm64",
+			"name": "php-curl",
+			"sha256": "28335d6ee2b35a1982c63118f6fb40be44799c90434f9cc47a4a0348666dcc29",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-curl_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-gd_2-8.2-p-93_arm64",
+			"name": "php-gd",
+			"sha256": "adce409a98adb466f164f624e1c3238b222d973fd76a8f34a14c504d628e35cc",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-gd_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-intl_2-8.2-p-93_arm64",
+			"name": "php-intl",
+			"sha256": "216231e0c4822cf1bf5ea0f3a08944fd8bdedaba6fc038d3cf99b8c68d359e7a",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-intl_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "php-zip_2-8.2-p-93_arm64",
+			"name": "php-zip",
+			"sha256": "8c9cc2a43d7deb53b331808854a290832002214ddd765ad46e3c17d42b339508",
+			"url": "https://snapshot.debian.org/archive/debian/20241012T203815Z/pool/main/p/php-defaults/php-zip_8.2+93_all.deb",
+			"version": "2:8.2+93"
+		},
+		{
+			"arch": "arm64",
+			"dependencies": [],
+			"key": "composer_2.5.5-1-p-deb12u2_arm64",
+			"name": "composer",
+			"sha256": "ed5665825da4a31542649c10d905012949bcbb02fe3c53a07706c3c04233dc16",
+			"url": "https://snapshot.debian.org/archive/debian-security/20241012T203815Z/pool/updates/main/c/composer/composer_2.5.5-1+deb12u2_all.deb",
+			"version": "2.5.5-1+deb12u2"
+		}
+	],
+	"version": 1
+}

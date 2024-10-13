@@ -51,7 +51,6 @@ DISTRO_VERSION = {
             deb.package(arch, distro, "libcurl4"),
             deb.package(arch, distro, "libedit2"),
             deb.package(arch, distro, "libsqlite3-0"),
-            deb.package(arch, distro, "libssl1.1"), 
             deb.package(arch, distro, "zlib1g"),
             deb.package(arch, distro, "libpng16-16"),
             deb.package(arch, distro, "libxml2"),
@@ -66,12 +65,10 @@ DISTRO_VERSION = {
             deb.package(arch, distro, "php-mbstring"),
             deb.package(arch, distro, "php-xml"),
             deb.package(arch, distro, "php-json"),
-            deb.package(arch, distro, "php-mysqlnd"),
             deb.package(arch, distro, "php-curl"),
             deb.package(arch, distro, "php-gd"),
             deb.package(arch, distro, "php-intl"),
             deb.package(arch, distro, "php-zip"),
-            deb.package(arch, distro, "php-opcache"),
             deb.package(arch, distro, "composer"),
         ],
     )
@@ -82,4 +79,17 @@ DISTRO_VERSION = {
     for user in USERS
     for arch in ARCHITECTURES
     for distro in DISTROS
+]
+
+[
+    oci_tarball(
+        name = ("php" if mode == ":" else mode[1:]) + "_" + user + "_" + arch + "_" + distro + "_tarball",
+        image = ("php" if mode == ":" else mode[1:]) + "_" + user + "_" + arch + "_" + distro,
+        repo_tags = [],
+    )
+    for mode in [":", ":debug"]
+    for user in USERS
+    for arch in ARCHITECTURES
+    for distro in DISTROS
+    if ("php" if mode == ":" else mode[1:]) + "_" + user + "_" + arch + "_" + distro != "php:_nonroot_amd64_debian12"
 ]
