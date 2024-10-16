@@ -1,6 +1,6 @@
 load("@container_structure_test//:defs.bzl", "container_structure_test")
 load("@rules_oci//oci:defs.bzl", "oci_image", "oci_image_index")
-load("@rules_pkg//:pkg.bzl", "pkg_tar")
+load("@rules_pkg//:pkg.bzl", "pkg_tar", "pkg_deb")
 load("//:checksums.bzl", ARCHITECTURES = "BASE_ARCHITECTURES")
 load("//private/util:deb.bzl", "deb")
 load("@rules_oci//oci:defs.bzl", "oci_tarball")
@@ -20,6 +20,8 @@ DISTRO_VERSION = {
     "debian12": "15",
 }
 
+# Continue with your existing rules
+
 pkg_tar(
     name = "entrypoint_tar",
     srcs = {
@@ -28,6 +30,7 @@ pkg_tar(
     mode = "0755",  # Make the script executable
     package_dir = "/usr/local/bin",  # Path where the script will be placed inside the container
 )
+
 
 oci_image_index(
     name = "postgres_index",
@@ -132,7 +135,7 @@ oci_image_index(
             deb.package(arch, distro, "libzstd1"),
             deb.package(arch, distro, "postgresql-15"),
             deb.package(arch, distro, "libp11-kit0"),
-            deb.package(arch, distro, "zlib1g-dev"),
+            bazel-bin/postgres/zlib_package/zlib1g.deb",
             ":entrypoint_tar",
         ],
     )
