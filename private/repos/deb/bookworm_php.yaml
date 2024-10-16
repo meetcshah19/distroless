@@ -16,19 +16,89 @@ archs:
 packages:
   - dash
   - libacl1
+  - libapt-pkg6.0
+  - libassuan0
+  - libattr1
+  - libaudit-common
+  - libaudit1
+  - libblkid1
+  - libbsd0
+  - libbz2-1.0
+  - libc-bin
+  - libc-l10n
   - libc6
-  - libcurl4
+  - libcap-ng0
+  - libcap2
+  - libcom-err2
+  - libcrypt1 # TODO: glibc library for -lcrypt; maybe should be in cc?
+  - libdb5.3
+  - libdebconfclient0
   - libedit2
+  # - libexpat1
+  - libext2fs2
+  - libffi8
+  - libgcc-s1
+  - libgcrypt20
+  - libgdbm-compat4
+  - libgdbm6
+  - libgmp10
+  - libgnutls30
+  - libgpg-error0
+  - libgssapi-krb5-2
+  - libhogweed6
+  - libicu72
+  - libidn2-0
+  - libjson-perl
+  - libk5crypto3
+  - libkeyutils1
+  - libkrb5-3
+  - libkrb5support0
+  - libksba8
+  - libldap-2.5-0
+  - libllvm16
+  - liblz4-1
+  - liblzma5
+  - libmd0
+  - libmount1
+  - libncursesw6
+  - libnettle8
+  - libnpth0
+  - libnss-wrapper
+  - libpam-modules
+  - libpam-modules-bin
+  - libpam-runtime
+  - libpam0g
+  - libpcre2-8-0
+  - libperl5.36
+  - libpq5
+  - libreadline8
+  - libsasl2-2
+  - libsasl2-modules-db
+  - libseccomp2
+  - libselinux1
+  - libsemanage-common
+  - libsemanage2
+  - libsepol2
+  - libsmartcols1
   - libsqlite3-0
+  - libss2
   - libssl3
-  - libpng16-16
+  - libstdc++6
+  - libsystemd0
+  - libtasn1-6
+  - libtinfo6
+  - libtirpc3
+  - libudev1
+  - libunistring2
+  - libuuid1
   - libxml2
-  - libonig5   
-  - libfreetype6
-  - libjpeg62-turbo
   - libxslt1.1
-  - libzip4
+  - libxxhash0
+  - libz3-4
+  - libzstd1
+  - postgresql-15
   - zlib1g
+  - libp11-kit0
   - php-cli
   - php-fpm
   - php-common
@@ -40,3 +110,4 @@ packages:
   - php-intl
   - php-zip
   - composer
+  - php
